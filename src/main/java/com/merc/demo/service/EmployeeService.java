@@ -17,4 +17,9 @@ public class EmployeeService {
 		return empList;
 	}
 
+	public Employee getEmpById(Integer eid) {
+		System.out.println(eid);
+		return null;
+	}
+
 }

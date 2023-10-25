@@ -22,7 +22,13 @@ public class EmployeeController {
 		System.out.println("getAllEmps");
 		return empService.getAllEmployees();
 	}
-	
+
 //	get-emp-by-id // 101 
+	@GetMapping("get--emp-by-id")
+	public Employee getEmpById() {
+		int eid = 101;
+		System.out.println("getEmpById");
+		return empService.getEmpById(eid);
+	}
 
 }
