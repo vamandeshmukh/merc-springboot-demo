@@ -11,4 +11,11 @@ public class Hello {
 		System.out.println("hello");
 		return "Hello world!";
 	}
+
+	@RequestMapping("hi")
+	public String hi() {
+		System.out.println("hi");
+		return "Hi! How are you?";
+	}
+
 }
