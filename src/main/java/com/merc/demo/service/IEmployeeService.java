@@ -10,6 +10,8 @@ public interface IEmployeeService {
 
 	public abstract Employee getEmpById(Integer eid);
 
+	public List<Employee> getEmpByFirstName(String firstName);
+
 	public abstract Employee addEmployee(Employee emp);
 
 	public abstract Employee updateEmployee(Employee emp);

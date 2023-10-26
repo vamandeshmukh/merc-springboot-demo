@@ -1,12 +1,14 @@
 package com.merc.demo.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.merc.demo.exception.EmployeeNotFoundException;
 import com.merc.demo.model.Employee;
 import com.merc.demo.repository.EmployeeRepository;
 
@@ -24,29 +26,33 @@ public class EmployeeService implements IEmployeeService {
 		return empRepository.findAll();
 	}
 
+
 	@Override
-	public Employee getEmpById(Integer eid) {
-		LOG.info(eid.toString());
-		return null;
+	public List<Employee> getEmpByFirstName(String firstName) {
+		LOG.info(firstName);
+		return empRepository.findByFirstName(firstName);
 	}
 
 	@Override
 	public Employee addEmployee(Employee emp) {
 		LOG.info(emp.toString());
-//		empRepository.
 		return empRepository.save(emp);
 	}
 
 	@Override
 	public Employee updateEmployee(Employee emp) {
-		return null;
+		LOG.info(emp.toString());
+		this.getEmpById(emp.getEid());
+		return empRepository.save(emp);
 	}
 
 	@Override
 	public Employee deleteEmployee(Integer eid) {
-		return null;
+		LOG.info(eid.toString());
+		Employee emp = this.getEmpById(eid);
+		empRepository.deleteById(eid);
+		return emp;
 	}
-
 }
 
 //package com.merc.demo.service;
