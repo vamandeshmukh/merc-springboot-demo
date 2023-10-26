@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import com.merc.demo.model.Employee;
 
 @Service
-public class EmployeeService {
+public class EmployeeService implements IEmployeeService {
 
 	private final Logger LOG = LoggerFactory.getLogger(this.getClass());
 
@@ -24,6 +24,7 @@ public class EmployeeService {
 		empList.add(new Employee(105, "Ponu", 92000d));
 	}
 
+	@Override
 	public List<Employee> getAllEmployees() {
 		LOG.info("getAllEmployees");
 		LOG.warn("some warning");
@@ -31,6 +32,7 @@ public class EmployeeService {
 		return empList;
 	}
 
+	@Override
 	public Employee getEmpById(Integer eid) {
 		LOG.info(eid.toString());
 		for (Employee e : empList) {
@@ -40,6 +42,7 @@ public class EmployeeService {
 		return null;
 	}
 
+	@Override
 	public Employee addEmployee(Employee emp) {
 		LOG.info(emp.toString());
 		if (empList.add(emp))
@@ -47,23 +50,14 @@ public class EmployeeService {
 		return null;
 	}
 
+	@Override
+	public Employee updateEmployee(Employee emp) {
+		return null;
+	}
+
+	@Override
+	public Employee deleteEmployee(Integer eid) {
+		return null;
+	}
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

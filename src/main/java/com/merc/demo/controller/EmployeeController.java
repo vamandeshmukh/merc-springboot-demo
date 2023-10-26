@@ -11,14 +11,13 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.merc.demo.model.Employee;
-import com.merc.demo.service.EmployeeService;
+import com.merc.demo.service.IEmployeeService;
 
 @RestController
 @RequestMapping("api")
@@ -30,22 +29,24 @@ public class EmployeeController {
 	private final Logger LOG = LoggerFactory.getLogger(this.getClass());
 
 	@Autowired
-	EmployeeService empService;
+	IEmployeeService empService;
 
 //	http://localhost:8090/api/get-all-emps
 
 	@GetMapping("get-all-emps")
+//	@RequestMapping(path = "get-all-emps", method = RequestMethod.GET, produces = "application/json", headers = {
+//			"message", "Employees found successfully." })
 	public ResponseEntity<List<Employee>> getAllEmps() {
 		List<Employee> empList = empService.getAllEmployees();
 		HttpStatus status = HttpStatus.OK;
-		HttpHeaders headers = new HttpHeaders();
-		headers.add("message", "Employees found successfully.");
-		ResponseEntity<List<Employee>> response = new ResponseEntity<List<Employee>>(empList, headers, status);
+//		HttpHeaders headers = new HttpHeaders();
+//		headers.add("message", "Employees found successfully.");
+		ResponseEntity<List<Employee>> response = new ResponseEntity<List<Employee>>(empList, /* headers, */ status);
 		LOG.info(Integer.toString(empList.size()));
 		return response;
 	}
 
-	@GetMapping("get-emp-by-id/{empid}")
+	@RequestMapping(path = "get-emp-by-id/{empid}", method = RequestMethod.GET, produces = "application/json")
 	public ResponseEntity<Employee> getEmpById(@PathVariable(name = "empid") Integer eid) {
 		Employee empObj = empService.getEmpById(eid);
 		HttpStatus status = HttpStatus.OK;
@@ -56,7 +57,6 @@ public class EmployeeController {
 		return response;
 	}
 
-//	@PostMapping("add-emp")
 	@RequestMapping(path = "add-emp", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	public ResponseEntity<Employee> addEmp(@RequestBody Employee emp) {
 		Employee empObj = empService.addEmployee(emp);
