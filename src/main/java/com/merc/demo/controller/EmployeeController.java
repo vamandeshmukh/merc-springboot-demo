@@ -19,14 +19,12 @@ public class EmployeeController {
 
 	@GetMapping("get-all-emps")
 	public List<Employee> getAllEmps() {
-		System.out.println("getAllEmps");
 		return empService.getAllEmployees();
 	}
 
 	@GetMapping("get-emp-by-id")
 	public Employee getEmpById() {
 		int eid = 101;
-		System.out.println("getEmpById");
 		return empService.getEmpById(eid);
 	}
 
