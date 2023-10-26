@@ -1,6 +1,8 @@
 package com.merc.demo.model;
 
-//import org.hibernate.validator.constraints.Length;
+import jakarta.persistence.CascadeType;
+
+import org.hibernate.validator.constraints.Length;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -21,7 +23,7 @@ public class Employee {
 	private Integer eid;
 
 	@Column(name = "first_name")
-//	@Length(min = 4, max = 20, message = "length should be 4 to 20 characters!")
+	@Length(min = 4, max = 20, message = "length should be 4 to 20 characters!")
 	private String firstName;
 
 	@Column(name = "salary")

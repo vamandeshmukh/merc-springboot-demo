@@ -71,7 +71,7 @@ public class EmployeeController {
 	}
 
 	@RequestMapping(path = "add-emp", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
-	public ResponseEntity<Employee> addEmp(@RequestBody @Valid Employee emp) {
+	public ResponseEntity<Employee> addEmp(@RequestBody /* @Valid */ Employee emp) {
 		Employee empObj = empService.addEmployee(emp);
 		HttpStatus status = HttpStatus.CREATED;
 		HttpHeaders headers = new HttpHeaders();

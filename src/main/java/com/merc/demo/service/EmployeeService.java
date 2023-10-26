@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 import com.merc.demo.exception.EmployeeNotFoundException;
 import com.merc.demo.model.Employee;
+import com.merc.demo.repository.DepartmentRepository;
 import com.merc.demo.repository.EmployeeRepository;
 
 @Service
@@ -19,6 +20,9 @@ public class EmployeeService implements IEmployeeService {
 
 	@Autowired
 	EmployeeRepository empRepository;
+
+	@Autowired
+	IDepartmentService depService;
 
 	@Override
 	public List<Employee> getAllEmployees() {
@@ -35,7 +39,7 @@ public class EmployeeService implements IEmployeeService {
 		} else {
 			String errorMessage = "Employee with eid " + eid + " not found!";
 			LOG.warn(errorMessage);
-			throw new EmployeeNotFoundException(errorMessage); // 404 
+			throw new EmployeeNotFoundException(errorMessage); // 404
 		}
 	}
 
@@ -47,6 +51,7 @@ public class EmployeeService implements IEmployeeService {
 
 	@Override
 	public Employee addEmployee(Employee emp) {
+		depService.getDepartmentById(emp.getDepartment().getDid());
 		LOG.info(emp.toString());
 		return empRepository.save(emp);
 	}
