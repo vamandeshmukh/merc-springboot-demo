@@ -34,9 +34,8 @@ public class EmployeeController {
 
 //	http://localhost:8090/api/get-all-emps
 
-	@GetMapping("get-all-emps")
-//	@RequestMapping(path = "get-all-emps", method = RequestMethod.GET, produces = "application/json", headers = {
-//			"message", "Employees found successfully." })
+//	@GetMapping("get-all-emps")
+	@RequestMapping(path = "get-all-emps", method = RequestMethod.GET, produces = "application/json")
 	public ResponseEntity<List<Employee>> getAllEmps() {
 		List<Employee> empList = empService.getAllEmployees();
 		HttpStatus status = HttpStatus.OK;

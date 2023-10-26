@@ -8287,3 +8287,125 @@ com.merc.demo.exception.EmployeeNotFoundException: Employee with eid 5 not found
 2023-10-26T15:08:52.076+05:30  INFO 13768 --- [Thread-274] com.zaxxer.hikari.HikariDataSource       : HikariPool-71 - Shutdown initiated...
 2023-10-26T15:08:52.078+05:30  INFO 13768 --- [Thread-274] com.zaxxer.hikari.HikariDataSource       : HikariPool-71 - Shutdown completed.
 2023-10-26T15:08:52.156+05:30  INFO 13768 --- [restartedMain] com.merc.demo.App                        : Start
+2023-10-26T15:08:52.184+05:30  INFO 13768 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.3 with PID 13768 (D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo\target\classes started by DELL in D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo)
+2023-10-26T15:08:52.184+05:30  INFO 13768 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-26T15:08:52.305+05:30  INFO 13768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-26T15:08:52.312+05:30  INFO 13768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2023-10-26T15:08:52.360+05:30  INFO 13768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-10-26T15:08:52.361+05:30  INFO 13768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-26T15:08:52.361+05:30  INFO 13768 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-26T15:08:52.386+05:30  INFO 13768 --- [restartedMain] o.a.c.c.C.[Tomcat-9].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-10-26T15:08:52.387+05:30  INFO 13768 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 201 ms
+2023-10-26T15:08:52.407+05:30  INFO 13768 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-26T15:08:52.411+05:30  INFO 13768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-72 - Starting...
+2023-10-26T15:08:52.530+05:30  INFO 13768 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-72 - Added connection org.postgresql.jdbc.PgConnection@5b6f6881
+2023-10-26T15:08:52.531+05:30  INFO 13768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-72 - Start completed.
+2023-10-26T15:08:52.538+05:30  INFO 13768 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-26T15:08:52.560+05:30  INFO 13768 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-26T15:08:52.561+05:30  INFO 13768 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-26T15:08:52.626+05:30  WARN 13768 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-26T15:08:52.664+05:30  INFO 13768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-26T15:08:52.669+05:30  INFO 13768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-10-26T15:08:52.672+05:30  INFO 13768 --- [restartedMain] com.merc.demo.App                        : Started App in 0.505 seconds (process running for 9935.607)
+2023-10-26T15:08:52.673+05:30  INFO 13768 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-26T15:09:19.440+05:30  INFO 13768 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-26T15:09:19.446+05:30  INFO 13768 --- [Thread-278] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-26T15:09:19.448+05:30  INFO 13768 --- [Thread-278] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-26T15:09:19.448+05:30  INFO 13768 --- [Thread-278] com.zaxxer.hikari.HikariDataSource       : HikariPool-72 - Shutdown initiated...
+2023-10-26T15:09:19.448+05:30  INFO 13768 --- [Thread-278] com.zaxxer.hikari.HikariDataSource       : HikariPool-72 - Shutdown completed.
+2023-10-26T15:09:19.494+05:30  INFO 13768 --- [restartedMain] com.merc.demo.App                        : Start
+2023-10-26T15:09:19.510+05:30  INFO 13768 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.3 with PID 13768 (D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo\target\classes started by DELL in D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo)
+2023-10-26T15:09:19.510+05:30  INFO 13768 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-26T15:09:19.553+05:30  INFO 13768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-26T15:09:19.556+05:30  INFO 13768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interfaces.
+2023-10-26T15:09:19.578+05:30  INFO 13768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-10-26T15:09:19.578+05:30  INFO 13768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-26T15:09:19.578+05:30  INFO 13768 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-26T15:09:19.588+05:30  INFO 13768 --- [restartedMain] o.a.c.c.C.[Tomcat-9].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-10-26T15:09:19.589+05:30  INFO 13768 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 79 ms
+2023-10-26T15:09:19.601+05:30  INFO 13768 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-26T15:09:19.604+05:30  INFO 13768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-73 - Starting...
+2023-10-26T15:09:19.736+05:30  INFO 13768 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-73 - Added connection org.postgresql.jdbc.PgConnection@52816e5e
+2023-10-26T15:09:19.737+05:30  INFO 13768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-73 - Start completed.
+2023-10-26T15:09:19.744+05:30  INFO 13768 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-26T15:09:19.762+05:30  INFO 13768 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-26T15:09:19.763+05:30  INFO 13768 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-26T15:09:19.767+05:30  WARN 13768 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeController' defined in file [D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo\target\classes\com\merc\demo\controller\EmployeeController.class]: Failed to instantiate [com.merc.demo.controller.EmployeeController]: Constructor threw exception
+2023-10-26T15:09:19.767+05:30  INFO 13768 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-26T15:09:19.768+05:30  INFO 13768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-73 - Shutdown initiated...
+2023-10-26T15:09:19.768+05:30  INFO 13768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-73 - Shutdown completed.
+2023-10-26T15:09:19.768+05:30  INFO 13768 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-26T15:09:19.772+05:30  INFO 13768 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-26T15:09:19.775+05:30 ERROR 13768 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeController' defined in file [D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo\target\classes\com\merc\demo\controller\EmployeeController.class]: Failed to instantiate [com.merc.demo.controller.EmployeeController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1314) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1199) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:950) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.12.jar:3.0.12]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733) ~[spring-boot-3.0.12.jar:3.0.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435) ~[spring-boot-3.0.12.jar:3.0.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) ~[spring-boot-3.0.12.jar:3.0.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-3.0.12.jar:3.0.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290) ~[spring-boot-3.0.12.jar:3.0.12]
+	at com.merc.demo.App.main(App.java:15) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.0.12.jar:3.0.12]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.merc.demo.controller.EmployeeController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308) ~[spring-beans-6.0.13.jar:6.0.13]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "}", delete this token
+
+	at com.merc.demo.controller.EmployeeController.<init>(EmployeeController.java:38) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198) ~[spring-beans-6.0.13.jar:6.0.13]
+	... 24 common frames omitted
+
+2023-10-26T15:09:31.330+05:30  INFO 13768 --- [restartedMain] com.merc.demo.App                        : Start
+2023-10-26T15:09:31.338+05:30  INFO 13768 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.3 with PID 13768 (D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo\target\classes started by DELL in D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo)
+2023-10-26T15:09:31.339+05:30  INFO 13768 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-26T15:09:31.376+05:30  INFO 13768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-26T15:09:31.378+05:30  INFO 13768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interfaces.
+2023-10-26T15:09:31.398+05:30  INFO 13768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-10-26T15:09:31.398+05:30  INFO 13768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-26T15:09:31.398+05:30  INFO 13768 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-26T15:09:31.407+05:30  INFO 13768 --- [restartedMain] o.a.c.c.C.[Tomcat-10].[localhost].[/]    : Initializing Spring embedded WebApplicationContext
+2023-10-26T15:09:31.407+05:30  INFO 13768 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 68 ms
+2023-10-26T15:09:31.415+05:30  INFO 13768 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-26T15:09:31.417+05:30  INFO 13768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-74 - Starting...
+2023-10-26T15:09:31.518+05:30  INFO 13768 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-74 - Added connection org.postgresql.jdbc.PgConnection@51e4d71d
+2023-10-26T15:09:31.519+05:30  INFO 13768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-74 - Start completed.
+2023-10-26T15:09:31.526+05:30  INFO 13768 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-26T15:09:31.543+05:30  INFO 13768 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-26T15:09:31.544+05:30  INFO 13768 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-26T15:09:31.575+05:30  WARN 13768 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-26T15:09:31.605+05:30  INFO 13768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-26T15:09:31.608+05:30  INFO 13768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-10-26T15:09:31.610+05:30  INFO 13768 --- [restartedMain] com.merc.demo.App                        : Started App in 0.278 seconds (process running for 9974.544)
+2023-10-26T15:09:31.610+05:30  INFO 13768 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-26T15:09:36.070+05:30  INFO 13768 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-26T15:09:36.077+05:30  INFO 13768 --- [Thread-282] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-26T15:09:36.079+05:30  INFO 13768 --- [Thread-282] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-26T15:09:36.079+05:30  INFO 13768 --- [Thread-282] com.zaxxer.hikari.HikariDataSource       : HikariPool-74 - Shutdown initiated...
+2023-10-26T15:09:36.081+05:30  INFO 13768 --- [Thread-282] com.zaxxer.hikari.HikariDataSource       : HikariPool-74 - Shutdown completed.
+2023-10-26T15:09:36.128+05:30  INFO 13768 --- [restartedMain] com.merc.demo.App                        : Start
