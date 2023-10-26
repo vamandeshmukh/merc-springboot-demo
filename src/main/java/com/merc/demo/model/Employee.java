@@ -1,7 +1,5 @@
 package com.merc.demo.model;
 
-import jakarta.persistence.CascadeType;
-
 import org.hibernate.validator.constraints.Length;
 
 import jakarta.persistence.Column;
