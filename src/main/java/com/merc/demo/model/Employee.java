@@ -1,6 +1,9 @@
 package com.merc.demo.model;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
@@ -8,9 +11,15 @@ import jakarta.persistence.Table;
 @Table(name = "employee_table")
 public class Employee {
 
-	@Id
+	@Id // indicated PK column field
+	@Column(name = "employee_id")
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer eid;
+
+	@Column(name = "first_name")
 	private String firstName;
+
+	@Column(name = "salary")
 	private Double salary;
 
 	public Employee() {
