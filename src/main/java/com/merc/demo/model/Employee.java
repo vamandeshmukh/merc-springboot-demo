@@ -113,3 +113,12 @@ public class Employee {
 //	}
 //
 //}
+
+
+
+
+
+
+//String url = "jdbc:postgresql://localhost:5432/merc-2023";
+//String user = "postgres";
+//String password = "root";
