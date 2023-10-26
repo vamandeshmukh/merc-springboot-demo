@@ -20,6 +20,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.merc.demo.model.Employee;
 import com.merc.demo.service.IEmployeeService;
 
+import jakarta.validation.Valid;
+
 @RestController
 @RequestMapping("api")
 //@CrossOrigin(origins = "3000")
@@ -69,7 +71,7 @@ public class EmployeeController {
 	}
 
 	@RequestMapping(path = "add-emp", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
-	public ResponseEntity<Employee> addEmp(@RequestBody Employee emp) {
+	public ResponseEntity<Employee> addEmp(@RequestBody @Valid Employee emp) {
 		Employee empObj = empService.addEmployee(emp);
 		HttpStatus status = HttpStatus.CREATED;
 		HttpHeaders headers = new HttpHeaders();
