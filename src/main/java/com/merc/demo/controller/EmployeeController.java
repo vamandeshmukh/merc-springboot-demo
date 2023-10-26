@@ -2,10 +2,14 @@ package com.merc.demo.controller;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -18,6 +22,8 @@ import com.merc.demo.service.EmployeeService;
 //@CrossOrigin(origins = { "3000", "4200" })
 @CrossOrigin(origins = "*")
 public class EmployeeController {
+
+	private final Logger LOG = LoggerFactory.getLogger(this.getClass());
 
 	@Autowired
 	EmployeeService empService;
@@ -33,8 +39,12 @@ public class EmployeeController {
 	public Employee getEmpById(@PathVariable(name = "empid") Integer eid) {
 		return empService.getEmpById(eid);
 	}
-	
-	
+
+	@PostMapping("add-emp")
+	public Employee addEmp(@RequestBody Employee emp) {
+		LOG.info(emp.toString());
+		return empService.addEmployee(emp);
+	}
 
 }
 

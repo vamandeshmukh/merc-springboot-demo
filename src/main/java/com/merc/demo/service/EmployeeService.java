@@ -40,4 +40,30 @@ public class EmployeeService {
 		return null;
 	}
 
+	public Employee addEmployee(Employee emp) {
+		LOG.info(emp.toString());
+		if (empList.add(emp))
+			return emp;
+		return null;
+	}
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3405,3 +3405,172 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Integer.toString()" bec
 2023-10-26T09:54:25.822+05:30  INFO 23220 --- [Thread-81] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
 2023-10-26T09:54:25.822+05:30  INFO 23220 --- [Thread-81] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Destroying Spring FrameworkServlet 'dispatcherServlet'
 2023-10-26T09:54:25.858+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Start
+2023-10-26T09:54:25.873+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.3 with PID 23220 (D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo\target\classes started by DELL in D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo)
+2023-10-26T09:54:25.874+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-26T09:54:25.946+05:30  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-10-26T09:54:25.946+05:30  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-26T09:54:25.946+05:30  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-26T09:54:25.953+05:30  INFO 23220 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-10-26T09:54:25.953+05:30  INFO 23220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 78 ms
+2023-10-26T09:54:25.980+05:30  INFO 23220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-26T09:54:25.983+05:30  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-10-26T09:54:25.984+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Started App in 0.124 seconds (process running for 1549.247)
+2023-10-26T09:54:25.985+05:30  INFO 23220 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-26T09:55:07.970+05:30  INFO 23220 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-26T09:55:07.978+05:30  INFO 23220 --- [Thread-85] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-26T09:55:08.008+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Start
+2023-10-26T09:55:08.018+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.3 with PID 23220 (D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo\target\classes started by DELL in D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo)
+2023-10-26T09:55:08.018+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-26T09:55:08.074+05:30  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-10-26T09:55:08.075+05:30  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-26T09:55:08.075+05:30  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-26T09:55:08.082+05:30  INFO 23220 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-10-26T09:55:08.082+05:30  INFO 23220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 63 ms
+2023-10-26T09:55:08.113+05:30  INFO 23220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-26T09:55:08.116+05:30  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-10-26T09:55:08.118+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Started App in 0.108 seconds (process running for 1591.381)
+2023-10-26T09:55:08.119+05:30  INFO 23220 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-26T09:55:33.830+05:30  INFO 23220 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-26T09:55:33.837+05:30  INFO 23220 --- [Thread-89] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-26T09:55:33.875+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Start
+2023-10-26T09:55:33.889+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.3 with PID 23220 (D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo\target\classes started by DELL in D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo)
+2023-10-26T09:55:33.889+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-26T09:55:33.948+05:30  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-10-26T09:55:33.948+05:30  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-26T09:55:33.948+05:30  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-26T09:55:33.956+05:30  INFO 23220 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-10-26T09:55:33.956+05:30  INFO 23220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 67 ms
+2023-10-26T09:55:33.982+05:30  INFO 23220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-26T09:55:34.005+05:30  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-10-26T09:55:34.008+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Started App in 0.129 seconds (process running for 1617.27)
+2023-10-26T09:55:34.009+05:30  INFO 23220 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-26T09:55:37.426+05:30  INFO 23220 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-26T09:55:37.432+05:30  INFO 23220 --- [Thread-93] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-26T09:55:37.462+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Start
+2023-10-26T09:55:37.473+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.3 with PID 23220 (D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo\target\classes started by DELL in D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo)
+2023-10-26T09:55:37.473+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-26T09:55:37.525+05:30  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-10-26T09:55:37.525+05:30  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-26T09:55:37.525+05:30  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-26T09:55:37.531+05:30  INFO 23220 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-10-26T09:55:37.531+05:30  INFO 23220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 58 ms
+2023-10-26T09:55:37.566+05:30  INFO 23220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-26T09:55:37.570+05:30  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-10-26T09:55:37.572+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Started App in 0.107 seconds (process running for 1620.834)
+2023-10-26T09:55:37.572+05:30  INFO 23220 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-26T09:55:52.161+05:30  INFO 23220 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-26T09:55:52.165+05:30  INFO 23220 --- [Thread-97] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-26T09:55:52.196+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Start
+2023-10-26T09:55:52.207+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.3 with PID 23220 (D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo\target\classes started by DELL in D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo)
+2023-10-26T09:55:52.208+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-26T09:55:52.269+05:30  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-10-26T09:55:52.270+05:30  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-26T09:55:52.270+05:30  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-26T09:55:52.278+05:30  INFO 23220 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-10-26T09:55:52.278+05:30  INFO 23220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 69 ms
+2023-10-26T09:55:52.306+05:30  INFO 23220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-26T09:55:52.311+05:30  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-10-26T09:55:52.313+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Started App in 0.114 seconds (process running for 1635.575)
+2023-10-26T09:55:52.313+05:30  INFO 23220 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-26T09:58:50.119+05:30  INFO 23220 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-26T09:58:50.125+05:30  INFO 23220 --- [Thread-101] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-26T09:58:50.157+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Start
+2023-10-26T09:58:50.167+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.3 with PID 23220 (D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo\target\classes started by DELL in D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo)
+2023-10-26T09:58:50.167+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-26T09:58:50.212+05:30  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-10-26T09:58:50.213+05:30  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-26T09:58:50.213+05:30  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-26T09:58:50.218+05:30  INFO 23220 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-10-26T09:58:50.218+05:30  INFO 23220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 50 ms
+2023-10-26T09:58:50.242+05:30  INFO 23220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-26T09:58:50.246+05:30  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-10-26T09:58:50.247+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Started App in 0.087 seconds (process running for 1813.509)
+2023-10-26T09:58:50.247+05:30  INFO 23220 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-26T09:59:10.921+05:30  INFO 23220 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-10-26T09:59:10.927+05:30  INFO 23220 --- [Thread-105] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-26T09:59:10.961+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Start
+2023-10-26T09:59:10.972+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.3 with PID 23220 (D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo\target\classes started by DELL in D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo)
+2023-10-26T09:59:10.972+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-26T09:59:11.025+05:30  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-10-26T09:59:11.025+05:30  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-26T09:59:11.025+05:30  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-26T09:59:11.032+05:30  INFO 23220 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-10-26T09:59:11.032+05:30  INFO 23220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 59 ms
+2023-10-26T09:59:11.051+05:30  INFO 23220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-26T09:59:11.054+05:30  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-10-26T09:59:11.056+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Started App in 0.092 seconds (process running for 1834.318)
+2023-10-26T09:59:11.056+05:30  INFO 23220 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-26T09:59:39.837+05:30  INFO 23220 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-26T09:59:39.842+05:30  INFO 23220 --- [Thread-109] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-26T09:59:39.872+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Start
+2023-10-26T09:59:39.886+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.3 with PID 23220 (D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo\target\classes started by DELL in D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo)
+2023-10-26T09:59:39.886+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-26T09:59:39.936+05:30  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-10-26T09:59:39.936+05:30  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-26T09:59:39.936+05:30  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-26T09:59:39.943+05:30  INFO 23220 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-10-26T09:59:39.943+05:30  INFO 23220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 56 ms
+2023-10-26T09:59:39.966+05:30  INFO 23220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-26T09:59:39.969+05:30  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-10-26T09:59:39.970+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Started App in 0.095 seconds (process running for 1863.233)
+2023-10-26T09:59:39.970+05:30  INFO 23220 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-26T09:59:51.514+05:30  INFO 23220 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-26T09:59:51.518+05:30  INFO 23220 --- [Thread-113] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-26T09:59:51.550+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Start
+2023-10-26T09:59:51.560+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.3 with PID 23220 (D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo\target\classes started by DELL in D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo)
+2023-10-26T09:59:51.560+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-26T09:59:51.612+05:30  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-10-26T09:59:51.612+05:30  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-26T09:59:51.613+05:30  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-26T09:59:51.619+05:30  INFO 23220 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-10-26T09:59:51.619+05:30  INFO 23220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 58 ms
+2023-10-26T09:59:51.647+05:30  INFO 23220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-26T09:59:51.650+05:30  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-10-26T09:59:51.652+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Started App in 0.098 seconds (process running for 1874.913)
+2023-10-26T09:59:51.652+05:30  INFO 23220 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-26T10:02:04.849+05:30  INFO 23220 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-26T10:02:04.853+05:30  INFO 23220 --- [Thread-117] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-26T10:02:04.886+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Start
+2023-10-26T10:02:04.898+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.3 with PID 23220 (D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo\target\classes started by DELL in D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo)
+2023-10-26T10:02:04.899+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-26T10:02:04.958+05:30  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-10-26T10:02:04.958+05:30  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-26T10:02:04.958+05:30  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-26T10:02:04.965+05:30  INFO 23220 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-10-26T10:02:04.966+05:30  INFO 23220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 66 ms
+2023-10-26T10:02:05.017+05:30  INFO 23220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-26T10:02:05.022+05:30  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-10-26T10:02:05.023+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Started App in 0.135 seconds (process running for 2008.286)
+2023-10-26T10:02:05.025+05:30  INFO 23220 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-26T10:02:19.788+05:30  INFO 23220 --- [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-26T10:02:19.788+05:30  INFO 23220 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-26T10:02:19.788+05:30  INFO 23220 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-10-26T10:02:19.789+05:30  INFO 23220 --- [http-nio-8090-exec-2] com.merc.demo.service.EmployeeService    : getAllEmployees
+2023-10-26T10:02:19.789+05:30  WARN 23220 --- [http-nio-8090-exec-2] com.merc.demo.service.EmployeeService    : some warning
+2023-10-26T10:02:19.789+05:30 ERROR 23220 --- [http-nio-8090-exec-2] com.merc.demo.service.EmployeeService    : some error
+2023-10-26T10:02:51.568+05:30  INFO 23220 --- [http-nio-8090-exec-3] com.merc.demo.service.EmployeeService    : getAllEmployees
+2023-10-26T10:02:51.568+05:30  WARN 23220 --- [http-nio-8090-exec-3] com.merc.demo.service.EmployeeService    : some warning
+2023-10-26T10:02:51.568+05:30 ERROR 23220 --- [http-nio-8090-exec-3] com.merc.demo.service.EmployeeService    : some error
+2023-10-26T10:02:58.043+05:30  INFO 23220 --- [http-nio-8090-exec-4] com.merc.demo.service.EmployeeService    : getAllEmployees
+2023-10-26T10:02:58.043+05:30  WARN 23220 --- [http-nio-8090-exec-4] com.merc.demo.service.EmployeeService    : some warning
+2023-10-26T10:02:58.043+05:30 ERROR 23220 --- [http-nio-8090-exec-4] com.merc.demo.service.EmployeeService    : some error
+2023-10-26T10:03:02.686+05:30  INFO 23220 --- [http-nio-8090-exec-5] c.m.demo.controller.EmployeeController   : Employee [eid=106, firstName=Ronu, salary=90003.0]
+2023-10-26T10:03:02.686+05:30  INFO 23220 --- [http-nio-8090-exec-5] com.merc.demo.service.EmployeeService    : Employee [eid=106, firstName=Ronu, salary=90003.0]
+2023-10-26T10:03:07.319+05:30  INFO 23220 --- [http-nio-8090-exec-6] com.merc.demo.service.EmployeeService    : getAllEmployees
+2023-10-26T10:03:07.319+05:30  WARN 23220 --- [http-nio-8090-exec-6] com.merc.demo.service.EmployeeService    : some warning
+2023-10-26T10:03:07.319+05:30 ERROR 23220 --- [http-nio-8090-exec-6] com.merc.demo.service.EmployeeService    : some error
+2023-10-26T10:04:03.050+05:30  INFO 23220 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-26T10:04:03.056+05:30  INFO 23220 --- [Thread-121] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-26T10:04:03.057+05:30  INFO 23220 --- [Thread-121] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-26T10:04:03.088+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Start
+2023-10-26T10:04:03.099+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.3 with PID 23220 (D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo\target\classes started by DELL in D:\VamanPro\Codes\merc\merc-java-ws\merc-springboot-demo)
+2023-10-26T10:04:03.099+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-26T10:04:03.152+05:30  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-10-26T10:04:03.152+05:30  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-26T10:04:03.152+05:30  INFO 23220 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-26T10:04:03.158+05:30  INFO 23220 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-10-26T10:04:03.158+05:30  INFO 23220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 58 ms
+2023-10-26T10:04:03.188+05:30  INFO 23220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-26T10:04:03.192+05:30  INFO 23220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-10-26T10:04:03.193+05:30  INFO 23220 --- [restartedMain] com.merc.demo.App                        : Started App in 0.102 seconds (process running for 2126.455)
+2023-10-26T10:04:03.193+05:30  INFO 23220 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
