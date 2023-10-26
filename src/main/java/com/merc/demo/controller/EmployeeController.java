@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.merc.demo.model.Employee;
@@ -55,7 +56,8 @@ public class EmployeeController {
 		return response;
 	}
 
-	@PostMapping("add-emp")
+//	@PostMapping("add-emp")
+	@RequestMapping(path = "add-emp", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	public ResponseEntity<Employee> addEmp(@RequestBody Employee emp) {
 		Employee empObj = empService.addEmployee(emp);
 		HttpStatus status = HttpStatus.CREATED;
@@ -65,6 +67,10 @@ public class EmployeeController {
 		LOG.info(empObj.toString());
 		return response;
 	}
+
+//	updateEmp
+
+//	deleteEmp
 
 }
 //package com.merc.demo.controller;
