@@ -28,15 +28,11 @@ public class EmployeeService {
 		LOG.info("getAllEmployees");
 		LOG.warn("some warning");
 		LOG.error("some error");
-		LOG.debug("debug log");
 		return empList;
 	}
 
 	public Employee getEmpById(Integer eid) {
 		LOG.info(eid.toString());
-		LOG.warn("some warning");
-		LOG.error("some error");
-		LOG.debug("debug log");
 		for (Employee e : empList) {
 			if (e.getEid() == eid)
 				return e;
