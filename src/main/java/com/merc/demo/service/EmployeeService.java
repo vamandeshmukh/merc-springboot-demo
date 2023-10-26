@@ -26,6 +26,18 @@ public class EmployeeService implements IEmployeeService {
 		return empRepository.findAll();
 	}
 
+	@Override
+	public Employee getEmpById(Integer eid) { // 101, 109
+		LOG.info(eid.toString());
+		Optional<Employee> empOpt = empRepository.findById(eid);
+		if (empOpt.isPresent()) {
+			return empOpt.get(); // 200
+		} else {
+			String errorMessage = "Employee with eid " + eid + " not found!";
+			LOG.warn(errorMessage);
+			throw new EmployeeNotFoundException(errorMessage); // 404 
+		}
+	}
 
 	@Override
 	public List<Employee> getEmpByFirstName(String firstName) {

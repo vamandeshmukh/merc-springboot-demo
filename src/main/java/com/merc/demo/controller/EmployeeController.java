@@ -11,6 +11,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -57,6 +58,17 @@ public class EmployeeController {
 		return response;
 	}
 
+	@RequestMapping(path = "get-emp-by-name/{ename}", method = RequestMethod.GET, produces = "application/json")
+	public ResponseEntity<List<Employee>> getEmpByName(@PathVariable(name = "ename") String firstName) {
+		List<Employee> empList = empService.getEmpByFirstName(firstName);
+		HttpStatus status = HttpStatus.OK;
+		HttpHeaders headers = new HttpHeaders();
+		headers.add("message", "Employees found successfully.");
+		ResponseEntity<List<Employee>> response = new ResponseEntity<List<Employee>>(empList, headers, status);
+		LOG.info(empList.toString());
+		return response;
+	}
+
 	@RequestMapping(path = "add-emp", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	public ResponseEntity<Employee> addEmp(@RequestBody Employee emp) {
 		Employee empObj = empService.addEmployee(emp);
@@ -68,9 +80,27 @@ public class EmployeeController {
 		return response;
 	}
 
-//	updateEmp
+	@RequestMapping(path = "update-emp", method = RequestMethod.PUT, consumes = "application/json", produces = "application/json")
+	public ResponseEntity<Employee> updateEmp(@RequestBody Employee emp) {
+		Employee empObj = empService.updateEmployee(emp);
+		HttpStatus status = HttpStatus.CREATED;
+		HttpHeaders headers = new HttpHeaders();
+		headers.add("message", "Employee updated successfully.");
+		ResponseEntity<Employee> response = new ResponseEntity<Employee>(empObj, headers, status);
+		LOG.info(empObj.toString());
+		return response;
+	}
 
-//	deleteEmp
+	@RequestMapping(path = "delete-emp/{empid}", method = RequestMethod.DELETE, produces = "application/json")
+	public ResponseEntity<Employee> deleteEmp(@PathVariable(name = "empid") Integer eid) {
+		Employee empObj = empService.deleteEmployee(eid);
+		HttpStatus status = HttpStatus.OK;
+		HttpHeaders headers = new HttpHeaders();
+		headers.add("message", "Employee deleted successfully.");
+		ResponseEntity<Employee> response = new ResponseEntity<Employee>(empObj, headers, status);
+		LOG.info(empObj.toString());
+		return response;
+	}
 
 }
 //package com.merc.demo.controller;
