@@ -29,7 +29,8 @@ public class AppUserService implements IAppUserService {
 
 	public AppUser addUser(AppUser appUser) {
 		LOG.info(appUser.toString());
-		if (this.getUserByUsername(appUser.getUsername()).getUsername().equalsIgnoreCase(appUser.getUsername())) {
+		Optional<AppUser> userOpt = appUserRepository.findByUsername(appUser.getUsername());
+		if (userOpt.isPresent() && (userOpt.get().getUsername().equals(appUser.getUsername()))) {
 //			throw new UserAlreadyExistsException(); // create this class and update global exception handler 
 			throw new RuntimeException("Username already exists!");
 		}

@@ -28,7 +28,7 @@ public class AppUserController {
 	@Autowired
 	IAppUserService appUserService;
 
-	// use for login
+	// create another method with username and password for login
 	@RequestMapping(path = "get-user-by-username/{username}", method = RequestMethod.GET, produces = "application/json")
 	public ResponseEntity<AppUser> getuserByUsername(@PathVariable(name = "username") String username) {
 		LOG.info("abc");
