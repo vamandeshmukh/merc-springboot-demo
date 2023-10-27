@@ -50,6 +50,8 @@ public class SecurityConfig {
 				//
 				.and().authorizeHttpRequests().requestMatchers("/api/**").authenticated()
 				//
+				.and().authorizeHttpRequests().requestMatchers("/actuator/**").permitAll()
+				//
 				.and().formLogin()
 				//
 				.and().build();
