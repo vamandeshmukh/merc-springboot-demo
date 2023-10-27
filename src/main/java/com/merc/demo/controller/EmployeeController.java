@@ -8,10 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+//import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -19,8 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.merc.demo.model.Employee;
 import com.merc.demo.service.IEmployeeService;
-
-import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("api")
@@ -38,6 +35,7 @@ public class EmployeeController {
 
 //	@GetMapping("get-all-emps")
 	@RequestMapping(path = "get-all-emps", method = RequestMethod.GET, produces = "application/json")
+	
 	public ResponseEntity<List<Employee>> getAllEmps() {
 		List<Employee> empList = empService.getAllEmployees();
 		HttpStatus status = HttpStatus.OK;
@@ -49,6 +47,7 @@ public class EmployeeController {
 	}
 
 	@RequestMapping(path = "get-emp-by-id/{empid}", method = RequestMethod.GET, produces = "application/json")
+	
 	public ResponseEntity<Employee> getEmpById(@PathVariable(name = "empid") Integer eid) {
 		Employee empObj = empService.getEmpById(eid);
 		HttpStatus status = HttpStatus.OK;

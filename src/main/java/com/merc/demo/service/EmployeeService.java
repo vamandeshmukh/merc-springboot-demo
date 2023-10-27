@@ -10,7 +10,6 @@ import org.springframework.stereotype.Service;
 
 import com.merc.demo.exception.EmployeeNotFoundException;
 import com.merc.demo.model.Employee;
-import com.merc.demo.repository.DepartmentRepository;
 import com.merc.demo.repository.EmployeeRepository;
 
 @Service
