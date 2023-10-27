@@ -1,7 +1,5 @@
 package com.merc.demo.controller;
 
-import java.util.List;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,9 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.merc.demo.model.AppUser;
-import com.merc.demo.model.Employee;
 import com.merc.demo.service.IAppUserService;
-import com.merc.demo.service.IEmployeeService;
 
 @RestController
 @RequestMapping("api")
@@ -35,12 +31,13 @@ public class AppUserController {
 	// use for login
 	@RequestMapping(path = "get-user-by-username/{username}", method = RequestMethod.GET, produces = "application/json")
 	public ResponseEntity<AppUser> getuserByUsername(@PathVariable(name = "username") String username) {
+		LOG.info("abc");
 		AppUser appUser = appUserService.getUserByUsername(username);
 		HttpStatus status = HttpStatus.OK;
 		HttpHeaders headers = new HttpHeaders();
 		headers.add("message", "User found successfully.");
 		ResponseEntity<AppUser> response = new ResponseEntity<AppUser>(appUser, headers, status);
-		LOG.info(appUser.toString());
+		LOG.info("xyz");
 		return response;
 	}
 
