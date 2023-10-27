@@ -32,9 +32,9 @@ public class EmployeeInterceptor {
 			LOG.info(arg.toString());
 	}
 
-	// @After("execution(* com.merc.demo.service.*.*(..))")
-//	public void serviceLog2() {
-//		LOG.info("After a method from a service class invoked.");
-//	}
+	@After("execution(* com.merc.demo.service.*.*(..))")
+	public void serviceLog2() {
+		LOG.info("After a method from a service class invoked.");
+	}
 
 }
