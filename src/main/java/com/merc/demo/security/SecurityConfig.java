@@ -30,7 +30,7 @@ public class SecurityConfig {
 
 		// error -
 		// Encoded password does not look like BCrypt
-		
+
 		UserDetails admin = User.withUsername("admin").password(encoder.encode("pass")).roles("ADMIN", "USER").build();
 		UserDetails user = User.withUsername("user").password(encoder.encode("pass")).roles("USER").build();
 
@@ -51,7 +51,6 @@ public class SecurityConfig {
 				.and().authorizeHttpRequests().requestMatchers("/api/**").authenticated()
 				//
 				.and().formLogin()
-
 				//
 				.and().build();
 
