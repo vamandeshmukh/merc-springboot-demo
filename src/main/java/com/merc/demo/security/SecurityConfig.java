@@ -25,11 +25,6 @@ public class SecurityConfig {
 	@Bean
 	public UserDetailsService userDetailsService(PasswordEncoder encoder) {
 		LOG.info(encoder.toString());
-//		UserDetails admin = User.withUsername("admin").password("pass").roles("ADMIN", "USER").build();
-//		UserDetails user = User.withUsername("user").password("pass").roles("USER").build();
-
-		// error -
-		// Encoded password does not look like BCrypt
 
 		UserDetails admin = User.withUsername("admin").password(encoder.encode("pass")).roles("ADMIN", "USER").build();
 		UserDetails user = User.withUsername("user").password(encoder.encode("pass")).roles("USER").build();
@@ -44,12 +39,11 @@ public class SecurityConfig {
 
 		return http.csrf().disable()
 				//
-				.authorizeHttpRequests().requestMatchers("/hi").permitAll()
-				//
-				.and().authorizeHttpRequests().requestMatchers("/hello").permitAll()
+				.authorizeHttpRequests().requestMatchers("/hi", "/hello").permitAll()
 				//
 				.and().authorizeHttpRequests().requestMatchers("/api/**").authenticated()
 				//
+				// add this for actuator
 				.and().authorizeHttpRequests().requestMatchers("/actuator/**").permitAll()
 				//
 				.and().formLogin()
