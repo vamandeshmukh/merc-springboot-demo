@@ -33,7 +33,7 @@ jobs:
       run: mvn install 
 
     - name: Upload JAR as artifact
-      uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v2
       with:
         name: merc-sbga-demo
 	path: target/
