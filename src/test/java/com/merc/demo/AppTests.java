@@ -3,10 +3,10 @@ package com.merc.demo;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.ContextConfiguration;
+import org.springframework.context.annotation.Configuration;
 
 @SpringBootTest
-@ContextConfiguration // add this 
+@Configuration
 class AppTests {
 
 	@Test
