@@ -36,6 +36,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: merc-sbga-demo.jar
+	path: vaman/address
 
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
