@@ -35,8 +35,7 @@ jobs:
     - name: Upload JAR as artifact
       uses: actions/upload-artifact@v2
       with:
-        name: merc-sbga-demo
-        path: home/merc-sbga-demo.jar
+        name: merc-sbga-demo.jar
 
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
