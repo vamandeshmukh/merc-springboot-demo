@@ -13,15 +13,15 @@ class AppTests {
 //	void contextLoads() {
 //	}
 
-	@Test
-	void testTest() {
-		assertEquals(10, 5 + 5);
-	}
-
-	@Test
-	void testTest2() {
-		assertEquals(10, 5 + 5);
-	}
+//	@Test
+//	void testTest() {
+//		assertEquals(10, 5 + 5);
+//	}
+//
+//	@Test
+//	void testTest2() {
+//		assertEquals(10, 5 + 5);
+//	}
 
 	@Test
 	void testTestN() {
