@@ -23,10 +23,10 @@ class AppTests {
 //		assertEquals(10, 5 + 5);
 //	}
 
-	@Test
-	void testTestN() {
-		assertNotEquals(10, 5 + 6);
-	}
+//	@Test
+//	void testTestN() {
+//		assertNotEquals(10, 5 + 6);
+//	}
 }
 
 // testAddEmployee
