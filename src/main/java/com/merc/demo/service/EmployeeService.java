@@ -34,6 +34,7 @@ public class EmployeeService implements IEmployeeService {
 		LOG.info(eid.toString());
 		Optional<Employee> empOpt = empRepository.findById(eid);
 		if (empOpt.isPresent()) {
+			LOG.info(empOpt.get().toString()); // new 
 			return empOpt.get(); // 200
 		} else {
 			String errorMessage = "Employee with eid " + eid + " not found!";
