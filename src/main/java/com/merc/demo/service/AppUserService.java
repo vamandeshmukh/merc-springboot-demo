@@ -5,7 +5,6 @@ import java.util.Optional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import com.merc.demo.model.AppUser;
@@ -24,7 +23,7 @@ public class AppUserService implements IAppUserService {
 		if (userOpt.isPresent())
 			return userOpt.get();
 //		return null;
-		throw new UsernameNotFoundException(username);
+		throw new RuntimeException(username);
 	}
 
 	public AppUser addUser(AppUser appUser) {
