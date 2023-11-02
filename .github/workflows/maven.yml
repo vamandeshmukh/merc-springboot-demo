@@ -23,9 +23,12 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Build and install with Maven
       run: mvn install
-
     - name: Upload JAR as artifact
       uses: actions/upload-artifact@v2
       with:
+        name: merc-sbga-demo
+        path: target/
+   - uses: actions/download-artifact@v3
+     with:
         name: merc-sbga-demo
         path: target/
