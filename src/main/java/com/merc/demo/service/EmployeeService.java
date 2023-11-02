@@ -26,6 +26,7 @@ public class EmployeeService implements IEmployeeService {
 	@Override
 	public List<Employee> getAllEmployees() {
 		LOG.info("getAllEmployees");
+		LOG.info("getAllEmployees");
 		return empRepository.findAll();
 	}
 
