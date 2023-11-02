@@ -25,13 +25,13 @@ jobs:
       run: mvn install -DskipTests
 
     - name: Upload JAR as artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: merc-sbga-demo
         path: target/
 
     - name: Download JAR as artifact
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v3
       with:
         name: merc-sbga-demo
         path: target/
