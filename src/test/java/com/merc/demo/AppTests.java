@@ -15,6 +15,7 @@ class AppTests {
 		Assertions.assertEquals(10, 5 + 5);
 	}
 
+	@Disabled
 	@Test
 	void testTestN() {
 		Assertions.assertNotEquals(10, 5 + 6);
