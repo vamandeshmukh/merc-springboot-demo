@@ -22,7 +22,7 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: Build and install with Maven
-      run: mvn install
+      run: mvn install -DskipTests
 
     - name: Upload JAR as artifact
       uses: actions/upload-artifact@v2
